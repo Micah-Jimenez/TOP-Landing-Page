@@ -12,3 +12,11 @@ body{
     flex-direction: column;
     font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
 }
+
+.hero,
+.information,
+.quote,
+.product,
+footer{
+    padding: 0 115px;
+}
