@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,11 +10,47 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: 'Merriweather Sans';
+    font-family: 'roboto';
 }
 
 .container{
     max-width: 1700px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 80px;
+}
+
+.hero{
+    background: #1f2937;
+    color: #f9faf8;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 100px 0;
+}
+
+.navbar h1{
+    font-size: 24px;
+}
+
+.navbar .nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.nav a:hover{
+    color: #b5b8bc;
+}
+
+.nav li{
+    margin: 0 5px;
+    font-size: 18px;
 }
