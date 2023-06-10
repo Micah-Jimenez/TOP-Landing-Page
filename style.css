@@ -10,5 +10,5 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: 'Merriweather Sans';
+    font-family: 'Merriweather Sans', Arial, Helvetica, sans-serif;
 }
