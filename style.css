@@ -28,7 +28,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0 100px 0;
+    padding: 20px 0 100px 0;
 }
 
 .navbar h1{
@@ -51,6 +51,37 @@ body{
 }
 
 .nav li{
-    margin: 0 5px;
+    margin: 0 10px;
     font-size: 18px;
+}
+
+.header{
+    display: flex;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .image{
+    min-width: 400px;
+    min-height: 200px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.header .text{
+    width: 500px;
+}
+
+.header button{
+    background: #3882f6;
+    color: #e5e7eb;
+    padding: 5px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
 }
